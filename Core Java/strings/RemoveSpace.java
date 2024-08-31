@@ -1,6 +1,5 @@
 package com.evergent.corejava.strings;
 
-
 //Replace method
 public class RemoveSpace {
 
@@ -8,11 +7,7 @@ public class RemoveSpace {
 		// TODO Auto-generated method stub
 
 		String str = "Hello world";
-		String noSpaces = str.replace(" ","");
+		String noSpaces = str.replace(" ", "");
 		System.out.println(noSpaces);
-		
-		
-		
-	}
-
+	}	
 }

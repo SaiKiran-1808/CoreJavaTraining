@@ -1,5 +1,6 @@
 package com.evergent.corejava.beans;
 
+//Setting and getting values using public methods of bean class
 public class StudentImpl {
 	
 	public static void main(String[] args) {

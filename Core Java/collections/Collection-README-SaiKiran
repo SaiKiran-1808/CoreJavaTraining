@@ -1,0 +1,65 @@
+Collection Framework
+It is predefined structure of different classes and interfaces.
+It is group of classes and interfaces together where we use their functionality to create our internal implementation or business logic. 
+Collection is the root interface.
+
+Array List : 
+  It is a class which implements list interface.
+  Size is growable.
+  It supports different data types.
+  It contains methods.
+  Easy for retrieval operations.
+  Default capacity of Arraylist is 10.
+  In array list we can store user defined data types.
+  
+Linked List(Implements  List) : 
+  It is a class which implements list interface.
+  Internally it uses double linked list.
+  Size is growable.
+  It supports different data types.
+  It contains methods.
+  Easy for insertion and deletion operations.
+  
+Vector :
+   It is a class which implements list interface.
+   It is legacy class(not recommended to use).
+   It is synchronized(thread safe).
+   Size grows double when it reaches it’s threshold value.
+   Default capacity of Vector is 10.
+   
+Stack : 
+   Stack is First In Last Out(FILO).
+   Stack methods are push(), pop(), search(), clear().
+   Default capacity of Stack is 10.
+   
+Hash Set
+   It is a class which implements set interface.
+   It doesn’t allow to store duplicates.
+   It stores and retrieves elements in random order.
+   Default capacity of hash set is 16.
+   
+Tree Set
+   It is a class which implements set interface.
+   It doesn’t allow to store duplicates.
+   It stores and retrieves elements in ascending order.
+   Default capacity of tree set is 16.
+   
+Linked Hash Set
+   Linked Hash set is used to maintain the insertion order.
+   Default capacity of linked hash set is 16.
+   
+--------------------------------------------------------------------------------------------   
+   
+Retrieval of elements from collection framework using Iterator, List iterator and Enumeration interfaces.
+
+Iterator : 
+  It is used to retrieve elements in forward direction only.
+  We cannot add elements using iterator.
+List Iterator :
+   It is used to retrieve elements in both forward and reverse direction. 
+   We can add elements using iterator.
+Enumeration
+   It is legacy interface(not recommended to use).
+   It is synchronized(thread safe).
+   It is only used with legacy classes.
+  

@@ -12,16 +12,12 @@ public class Autoboxing_Unboxing3 {
 		System.out.println("int value : "+t1);
 		System.out.println("Integer object : "+i);
 		
-		
 		char c1 = 'a';
 		Character myc = c1;
 		char ch = myc.charValue();
 		
 		System.out.println("character value : "+ch);
-		System.out.println("Character object : "+myc);
-		
-		
-		
+		System.out.println("Character object : "+myc);		
 	}
 
 }

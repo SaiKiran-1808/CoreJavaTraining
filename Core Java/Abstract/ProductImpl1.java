@@ -1,7 +1,7 @@
 package com.evergent.corejava.Abstract;
 
 public class ProductImpl1 extends Product{	
-	//We cannot create object of abstract class 
+	//We cannot create object of abstract class but we can create reference to it. 
 	
 	public void newProduct() {
 		System.out.println("New Product");
@@ -15,7 +15,7 @@ public class ProductImpl1 extends Product{
 		// TODO Auto-generated method stub
 		
 //		Product prod = new Product();
-		ProductImpl1 pr = new ProductImpl1();
+		Product pr = new ProductImpl1();
 		pr.newProduct();
 	}
 

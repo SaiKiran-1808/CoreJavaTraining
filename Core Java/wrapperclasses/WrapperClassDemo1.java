@@ -6,11 +6,9 @@ public class WrapperClassDemo1 {
 		// TODO Auto-generated method stub
 
 		int a = 10;
-		
 		//Autoboxing
 		Integer i1 = new Integer(a);
 		System.out.println("Integer object : "+i1);
-		
 		
 		//Auto Unboxing
 		int a1 = i1.intValue();

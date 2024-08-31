@@ -1,7 +1,9 @@
 package com.evergent.corejava.beans;
 
+import java.io.Serializable;
+
 //This is bean creation, initialization is happening through setters and retrieval through getter methods
-public class Employee {
+public class Employee implements Serializable{
 
 	private int eno;
 	private String ename;
@@ -26,14 +28,11 @@ public class Employee {
 	public double getSal() {
 		return sal;
 	}
-
 	public void setSal(double sal) {
 		this.sal = sal;
 	}
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
 	}
 
 }

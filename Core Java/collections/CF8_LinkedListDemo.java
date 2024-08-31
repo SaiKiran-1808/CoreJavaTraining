@@ -2,6 +2,7 @@ package com.evergent.corejava.collections;
 
 import java.util.LinkedList;
 
+//These are all linked list methods.
 public class CF8_LinkedListDemo {
 	public static void main(String[] args) {
 		LinkedList fruits = new LinkedList();
@@ -9,9 +10,7 @@ public class CF8_LinkedListDemo {
 		fruits.add("Banana");
 		fruits.add("Cherry");
 		fruits.add("Date");
-		
 		System.out.println(fruits);
-		
 		fruits.addFirst("Mango");
 		System.out.println("After adding fruits at first : "+fruits);
 		fruits.addLast("Orange");
@@ -27,6 +26,5 @@ public class CF8_LinkedListDemo {
 		System.out.println("Size : "+fruits.size());
 		System.out.println("After clearing : ");
 		fruits.clear();
-		
 	}
 }

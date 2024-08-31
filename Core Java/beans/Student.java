@@ -1,6 +1,8 @@
 package com.evergent.corejava.beans;
 
-public class Student {
+import java.io.Serializable;
+
+public class Student implements Serializable{
 
 	private int sno;
 	private String sname;

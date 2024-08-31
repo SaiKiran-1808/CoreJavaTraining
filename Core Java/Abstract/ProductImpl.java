@@ -1,5 +1,6 @@
 package com.evergent.corejava.Abstract;
 
+//Here we overridden abstract methods by extending abstract class
 public class ProductImpl extends Product{
 
 	public void show() {

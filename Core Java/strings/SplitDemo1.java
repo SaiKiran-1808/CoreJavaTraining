@@ -1,7 +1,5 @@
 package com.evergent.corejava.strings;
 
-
-
 //SplitDemo using normal for loop
 public class SplitDemo1 {
 

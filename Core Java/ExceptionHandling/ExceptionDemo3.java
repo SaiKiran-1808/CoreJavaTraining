@@ -1,23 +1,31 @@
 package com.evergent.corejava.ExceptionHandling;
 
-//If there are 2 exceptions in class developer should handle 1st exception then 2nd exception will be handled next.
+//We can use try inside try, Nested Try. 
 public class ExceptionDemo3 {
 
 	String name = "null";
-	int k = 2;
+	int k = 0;
 
 	public void myData() {
 		try {
 			System.out.println("One");
 			System.out.println(name.length());
-			int t = 10 / k;
+
+			try {
+				int t = 10 / k;
+			} catch (Exception e) {
+				System.out.println("I can handle" + e);
+			} finally {
+				System.out.println("Inside try block");
+			}
 			System.out.println("End");
-		} catch (NullPointerException e) {
+		} catch (NullPointerException | ArithmeticException e) {
 			System.out.println("I can handle" + e);
-		} catch (ArithmeticException e) {
-			System.out.println("I can handle" + e);
+		} finally {
+			System.out.println("Outside try block");
 		}
 	}
+
 	public static void main(String[] args) {
 		ExceptionDemo3 e1 = new ExceptionDemo3();
 		e1.myData();

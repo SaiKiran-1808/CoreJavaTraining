@@ -1,6 +1,6 @@
 package com.evergent.corejava.Abstract;
 
-//Abstract class constructor can be created but will be called when we call sub class constructor
+//vii. Abstract class constructor can be created but it will be called when we create sub class object.
 public class ProductImpl3 extends Product3{	
 	
 	public ProductImpl3() {

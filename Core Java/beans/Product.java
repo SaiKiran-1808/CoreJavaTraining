@@ -1,6 +1,9 @@
 package com.evergent.corejava.beans;
 
-public class Product {
+//We achieve tightly encapsulation through beans
+import java.io.Serializable;
+
+public class Product implements Serializable{
 
 	private int epno;
 	private String pname;

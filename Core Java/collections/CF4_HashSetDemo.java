@@ -2,12 +2,11 @@ package com.evergent.corejava.collections;
 
 import java.util.HashSet;
 import java.util.Iterator;
-
-public class HashSetDemo4 {
+//HashSet using iterator
+public class CF4_HashSetDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
 		HashSet hs = new HashSet<>();
 		hs.add(100);
 		hs.add("Hello");
@@ -18,9 +17,6 @@ public class HashSetDemo4 {
 		Iterator itr = hs.iterator();
 		while(itr.hasNext()) {
 			System.out.println(itr.next());
-		}
-		
-		
+		}		
 	}
-
 }

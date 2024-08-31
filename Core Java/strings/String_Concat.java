@@ -1,7 +1,5 @@
 package com.evergent.corejava.strings;
 
-
-
 //String concatenation using method 
 public class String_Concat {
 
@@ -11,5 +9,4 @@ public class String_Concat {
 		str = str.concat(" World");
 		System.out.println(str);
 	}
-
 }

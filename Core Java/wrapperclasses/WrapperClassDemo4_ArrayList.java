@@ -1,6 +1,6 @@
 package com.evergent.corejava.wrapperclasses;
 
-import java.util.ArrayList;import javax.swing.plaf.multi.MultiButtonUI;
+import java.util.ArrayList;
 
 public class WrapperClassDemo4_ArrayList {
 
@@ -23,8 +23,5 @@ public class WrapperClassDemo4_ArrayList {
 		System.out.println(mylist);
 		
 		System.out.println(mylist.get(1));
-		
-		
 		}
-
 }
