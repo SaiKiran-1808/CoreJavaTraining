@@ -1,0 +1,9 @@
+Singleton Design pattern
+Singleton class is used when we want to create a class object only once irrespective of how many times it called.
+
+Steps :-
+We should use private constructor.
+We should use private object reference.
+We should use public static method to get the created object.
+
+Every object will have same hash code. 

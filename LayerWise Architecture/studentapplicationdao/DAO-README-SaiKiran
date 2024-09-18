@@ -1,0 +1,3 @@
+DAO layer - Data Access Object
+DAO layer is used to write data base steps separately so that different code's will not be at same place and wont cause confusion.
+In general we use collections to store data temporarily, so we use JDBC steps to store data into data base permanently.
